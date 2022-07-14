@@ -8,3 +8,24 @@ header {
     color: #a0679b;
 }
 
+div.card-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(medias/salon-expo.webp) center center no-repeat;
+}
+
+div.card-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(medias/salon-expo.webp) center center no-repeat;
+}
+
+div.card-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(medias/salon-expo.webp) center center no-repeat;
+}
+
+footer {
+    height: 20vh;
+    background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
+    url(medias/fond-accueil.webp) center center no-repeat;
+}
+
