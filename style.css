@@ -1,5 +1,5 @@
 header {
-  height: 65vh;
+  height: 55vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
     url(medias/fond-accueil.webp) center center no-repeat;
 }
@@ -9,21 +9,25 @@ header {
 }
 
 div.card-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
     url(medias/salon-expo.webp) center center no-repeat;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
 }
 
 div.card-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
     url(medias/artiste-rue.webp) center center no-repeat;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+    background-size: cover;
 }
 
 div.card-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
     url(medias/murs-resto.webp) center center no-repeat;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+    
+}
+
+div.card-4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+    url(medias/fond-accueil.webp) center center no-repeat;
 }
 
 footer {
