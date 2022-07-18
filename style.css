@@ -1,12 +1,16 @@
 header {
-  height: 50vh;
+  height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
-    url(medias/fond-accueil.webp) center center no-repeat;
+    url(medias/fond-accueil.webp) no-repeat;
     background-size: cover;
 }
 
-#services h2 {
-    color: #a0679b;
+#img-accueil-1, #img-accueil-2 {
+    display: none; 
+}
+
+div.card {
+    margin-top: 20px;
 }
 
 div.card-1 {
@@ -26,15 +30,49 @@ div.card-3 {
     
 }
 
-div.card-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
-    url(medias/fond-accueil.webp) center center no-repeat;
-}
 
 footer {
     height: 10vh;
     background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
-    url(medias/fond-accueil.webp) center center no-repeat;
+    url(medias/fond-accueil.webp) no-repeat;
     background-size: cover;
 }
 
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 50vh;
+    }
+
+    #img-accueil-1 {
+        display: initial;
+        border-radius: 5px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        width: 70%;
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #img-accueil-1 {
+        display: initial;
+        border-radius: 5px;
+        position: relative;
+        top: 50px;
+        left: 70px;
+        width: 50%;
+        max-width: 500px;
+    }
+
+    #img-accueil-2 {
+        display: initial;
+        border-radius: 5px;
+        position: relative;
+        top: 150px;
+        left: 110px;
+        width: 30%;
+        max-width: 350px;
+    }
+}
