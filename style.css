@@ -1,3 +1,12 @@
+
+/* ============== mobil first ============== */
+/* this site is build for mobil first and 
+   media query (min-with: 768px) for tablet and
+   (min-with: 1200px) fot desktop */
+/* ========================================= */
+
+
+/* =========== navbar & bannière ========== */
 header {
   height: 40vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
@@ -9,10 +18,7 @@ header {
     display: none; 
 }
 
-div.card {
-    margin-top: 20px;
-}
-
+/* ============== services ============== */
 div.card-1 {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
     url(medias/salon-expo.webp) center center no-repeat;
@@ -30,7 +36,18 @@ div.card-3 {
     
 }
 
+/* =============== team =============== */
+.card-team img {
+    width: 200px;
+}
 
+.card-team i {
+    width: 100px;
+}
+
+
+
+/* ============== footer ============== */
 footer {
     height: 10vh;
     background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
@@ -39,6 +56,10 @@ footer {
 }
 
 
+
+
+/* ============== média query ============== */
+/* ========================================= */
 @media screen and (min-width: 768px) {
     header {
         height: 50vh;

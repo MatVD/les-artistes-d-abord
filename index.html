@@ -9,7 +9,11 @@
       content="Venez rencontrer les stars de demain, ceux qui vont faire parler d'eux grace à leurs oeuvres!"
     />
     <title>Les artistes d'abord</title>
-
+    <!-- Boostrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -55,13 +59,21 @@
       </nav>
 
       <section class="container d-flex justify-content-around">
-        <div >
+        <div>
           <h1 class="pt-5">Les artistes d'abord</h1>
           <h2 class="h3 lead">Nous sommes là pour vous faire connaître</h2>
         </div>
         <div>
-          <img id="img-accueil-2" src="medias/artiste-rue.webp" alt="artiste dans son atelier">
-          <img id="img-accueil-1" src="medias/artiste-atelier.webp" alt="artiste dans son atelier">
+          <img
+            id="img-accueil-2"
+            src="medias/artiste-rue.webp"
+            alt="artiste dans son atelier"
+          />
+          <img
+            id="img-accueil-1"
+            src="medias/artiste-atelier.webp"
+            alt="artiste dans son atelier"
+          />
         </div>
       </section>
     </header>
@@ -74,24 +86,26 @@
         créateurs de faire connaitre leur travail. C'est là qu'intervient cette
         plateforme en ligne. L'idée est simple : nous répertorions les futurs
         évènements qui peuvent intérésser les artistes dans l'onglet
-        <a href="#">"Événements"</a>, ils peuvent ensuite s'y inscire directement depuis le site"
+        <a href="#">"Événements"</a>, ils peuvent ensuite s'y inscire"
       </p>
 
-      
       <!-- =========== services ========== -->
-      <hr>
+      <hr />
       <p class="lead mt-5">Voici un aperçu...</p>
       <section class="text-center">
         <div class="row">
+
+          <!-- first card -->
           <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="text-decoration-none text-light">
-              <div class="card card-1 bg-dark border-secondary">
+              <div class="card card-1 border-secondary mt-4">
                 <div class="card-body">
                   <h4 class="card-title mb-5 mt-3 text-uppercase">
                     Salons d'expositions
                   </h4>
                   <p class="card-text lead mb-5">
-                    Exposer est un des meilleurs moyens de se faire connaître. Vous trouverez votre bonheur ici
+                    Exposer est un des meilleurs moyens de se faire connaître.
+                    Vous trouverez votre bonheur ici
                   </p>
                   <a href="#" class="card-link text-decoration-none"
                     >Je veux exposer</a
@@ -101,15 +115,16 @@
             </a>
           </div>
 
+          <!-- second card -->
           <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="text-decoration-none text-light">
-              <div class="card card-2 bg-dark border-secondary">
+              <div class="card card-2 border-secondary mt-4">
                 <div class="card-body">
                   <h4 class="card-title mb-5 mt-3 text-uppercase">
-                    Marchés de créateur
+                    Marchés de créateurs
                   </h4>
                   <p class="card-text lead mb-5">
-                    Etre présent sur un marché de créateur est un autre moyen
+                    Etre présent sur un marché de créateurs est un autre moyen
                     efficace de montrer votre travail
                   </p>
                   <a href="#" class="card-link text-decoration-none"
@@ -120,9 +135,10 @@
             </a>
           </div>
 
+          <!-- third card -->
           <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="text-decoration-none text-light">
-              <div class="card card-3 bg-dark border-secondary">
+              <div class="card card-3 border-secondary mt-4">
                 <div class="card-body">
                   <h4 class="card-title mb-5 mt-3 text-uppercase">
                     Les restaurants
@@ -138,7 +154,131 @@
               </div>
             </a>
           </div>
+        </div>
+      </section>
 
+      <!-- =========== team ========== -->
+      <hr class="mt-5" />
+      <p class="lead mt-5 text-center">L'équipe derrière tout ce travail</p>
+      <section class="text-center">
+        <div class="row">
+
+          <!-- first member -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-light">
+              <div class="card card-team bg-dark mt-3">
+                <img
+                  class="rounded-circle"
+                  src="medias/portrait-philippe.webp"
+                  alt="1er membre de l'équipe"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mt-1">Philippe DUPONT</h4>
+                  <p class="card-text lead">Informaticien à la retraite</p>
+                  <div class="reseaux">
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-instagram"
+                        role="img"
+                        aria-label="insta"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-github"
+                        role="img"
+                        aria-label="GitHub"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- second member -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-light">
+              <div class="card card-team bg-dark mt-3">
+                <img
+                  class="rounded-circle"
+                  src="medias/portrait-antoine.webp"
+                  alt="1er membre de l'équipe"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mt-1">Antoine MARIE</h4>
+                  <p class="card-text lead">Passionné du net</p>
+                  <div class="reseaux">
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-instagram"
+                        role="img"
+                        aria-label="insta"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-github"
+                        role="img"
+                        aria-label="GitHub"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- third member -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <a href="#" class="text-decoration-none text-light">
+              <div class="card card-team bg-dark mt-3 border-transparent">
+                <img
+                  class="rounded-circle"
+                  src="medias/portrait-alice.webp"
+                  alt="1er membre de l'équipe"
+                />
+                <div class="card-body">
+                  <h4 class="card-title mt-1">Alice ARIBERT</h4>
+                  <p class="card-text lead">Etudiante BTS SIO</p>
+                  <div class="reseaux">
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-instagram"
+                        role="img"
+                        aria-label="insta"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-light"
+                      ><i
+                        class="bi bi-github"
+                        role="img"
+                        aria-label="GitHub"
+                        style="font-size: 2rem"
+                      ></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
     </main>
