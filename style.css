@@ -1,7 +1,8 @@
 header {
-  height: 55vh;
+  height: 50vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
     url(medias/fond-accueil.webp) center center no-repeat;
+    background-size: cover;
 }
 
 #services h2 {
@@ -31,8 +32,9 @@ div.card-4 {
 }
 
 footer {
-    height: 20vh;
+    height: 10vh;
     background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
     url(medias/fond-accueil.webp) center center no-repeat;
+    background-size: cover;
 }
 
