@@ -8,11 +8,12 @@
 
 /* =========== navbar & bannière ========== */
 header {
-  height: 40vh;
+  height: 45vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
     url(medias/fond-accueil.webp) no-repeat;
     background-size: cover;
 }
+
 
 #img-accueil-1, #img-accueil-2 {
     display: none; 
@@ -49,12 +50,15 @@ div.card-3 {
 
 /* ============== footer ============== */
 footer {
-    height: 10vh;
+    height: 20vh;
     background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
     url(medias/fond-accueil.webp) no-repeat;
     background-size: cover;
 }
 
+footer > div {
+    height: 20vh;
+}
 
 
 
@@ -62,7 +66,7 @@ footer {
 /* ========================================= */
 @media screen and (min-width: 768px) {
     header {
-        height: 60vh;
+        height: 65vh;
     }
 
     #img-accueil-1 {
@@ -82,17 +86,18 @@ footer {
         border-radius: 5px;
         position: relative;
         top: 50px;
-        left: 70px;
-        width: 50%;
+        left: 80px;
+        width: 45%;
         max-width: 500px;
     }
 
     #img-accueil-2 {
         display: initial;
+        z-index: 1;
         border-radius: 5px;
         position: relative;
         top: 150px;
-        left: 110px;
+        left: 150px;
         width: 30%;
         max-width: 350px;
     }
