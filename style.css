@@ -14,6 +14,10 @@ header {
     background-size: cover;
 }
 
+.header-events {
+    height: 40vh;
+}
+
 
 #img-accueil-1, #img-accueil-2 {
     display: none; 
