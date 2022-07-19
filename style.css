@@ -8,7 +8,7 @@
 
 /* =========== navbar & bannière ========== */
 header {
-  height: 45vh;
+  height: 55vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(33, 37, 41)),
     url(medias/fond-accueil.webp) no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ footer > div {
 /* ========================================= */
 @media screen and (min-width: 768px) {
     header {
-        height: 60vh;
+        height: 65vh;
     }
 
     #img-accueil-1 {
