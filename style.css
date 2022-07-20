@@ -1,9 +1,9 @@
 
-/* ============== mobil first ============== */
+/* ================== mobil first =================== */
 /* this site is build for mobil first and 
    media query (min-with: 768px) for tablet and
    (min-with: 1200px) fot desktop */
-/* ========================================= */
+/* =================================================== */
 
 
 /* =========== navbar & bannière ========== */
@@ -48,7 +48,7 @@ div.card-3 {
 
 
 
-/* ============== footer ============== */
+/* =============== footer ============== */
 footer {
     height: 20vh;
     background: linear-gradient(rgb(33, 37, 41), rgba(0, 0, 0, 0.2) ),
@@ -62,8 +62,8 @@ footer > div {
 
 
 
-/* ============== media query ============== */
-/* ========================================= */
+/* ===================== media query ====================== */
+/* ======================================================== */
 @media screen and (min-width: 768px) {
     header {
         height: 50vh;
@@ -88,6 +88,7 @@ footer > div {
         max-width: 450px;
     }
 
+    /* ======= contact form ======= */
     form {
         max-width: 600px;
         margin: 50px auto;
