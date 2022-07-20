@@ -8,7 +8,7 @@
       name="description"
       content="Venez rencontrer les stars de demain, ceux qui vont faire parler d'eux grace à leurs oeuvres!"
     />
-    <title>Les artistes d'abord</title>
+    <title>Les artistes d'abord - Accueil</title>
     <!-- Boostrap Icons -->
     <link
       rel="stylesheet"
@@ -45,13 +45,13 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/index.html">Accueil</a>
+                <a class="nav-link active" href="/index.html">Accueil</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/events.html">Événements</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">A propos</a>
+                <a class="nav-link" href="/contact.html">Contactez-nous</a>
               </li>
             </ul>
           </div>
@@ -78,22 +78,24 @@
       </section>
     </header>
 
-    <main class="container">
+    <div class="container-fluid">
+      <hr class="mt-5 w-75 mx-auto" />
+    </div>
+    <main>
       <!-- =========== president ========= -->
-      <p class="lead my-5">
-        <span class="fw-bold">Un mot du président :</span> <br />
-        "J'ai pris conscience il y a longtemps de la dificulté pour les
-        créateurs de faire connaitre leur travail. C'est là qu'intervient cette
-        plateforme en ligne. L'idée est simple : nous répertorions les futurs
-        évènements qui peuvent intérésser les artistes (dans l'onglet
-        <a href="#">"Événements"</a>), ils peuvent ensuite s'y inscire"
-      </p>
+      <section class="container">
+        <p class="lead my-5">
+          <span class="fw-bold">Un mot du président :</span> <br />
+          "J'ai pris conscience il y a longtemps de la dificulté pour les
+          créateurs de faire connaitre leur travail. C'est là qu'intervient
+          cette plateforme en ligne. L'idée est simple : nous répertorions les
+          futurs évènements qui peuvent intérésser les artistes (dans l'onglet
+          <a href="#">"Événements"</a>), ils peuvent ensuite s'y inscire"
+        </p>
 
-      <!-- =========== services ========== -->
-      <hr />
-      <p class="lead mt-5">Voici un aperçu...</p>
-      <section class="text-center">
-        <div class="row">
+        <!-- =========== services ========== -->
+        <p class="lead mt-5">Voici un aperçu...</p>
+        <div class="row text-center">
           <!-- first card -->
           <div class="col-12 col-md-6 col-lg-4">
             <a href="#" class="text-decoration-none text-light">
@@ -157,135 +159,127 @@
       </section>
 
       <!-- =========== team ========== -->
-      <hr class="mt-5" />
+      <div class="container-fluid">
+        <hr class="mt-5 w-75 mx-auto" />
+      </div>
+      <section class="container text-center">
       <p class="lead mt-5 text-center">L'équipe derrière tout ce travail</p>
-      <section class="text-center">
         <div class="row">
           <!-- first member -->
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-team bg-dark mt-5 text-light">
-                <img
-                  class="card-img mx-auto rounded-circle"
-                  src="medias/portrait-philippe.webp"
-                  alt="1er membre de l'équipe"
-                />
-                <div class="card-body">
-                  <h4 class="card-title mt-1">Philippe DUPONT</h4>
-                  <p class="card-text lead">
-                    Informaticien à la retraite <br />
-                    & président
-                  </p>
-                  <div>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-instagram"
-                        role="img"
-                        aria-label="insta"
-                        style="font-size: 2rem"
-                      ></i
-                    ></a>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-facebook"
-                        role="img"
-                        aria-label="facebook"
-                        style="font-size: 2rem"
-                      ></i>
-                    </a>
-                  </div>
+            <div class="card card-team bg-dark mt-5 text-light">
+              <img
+                class="card-img mx-auto rounded-circle"
+                src="medias/portrait-philippe.webp"
+                alt="1er membre de l'équipe"
+              />
+              <div class="card-body">
+                <h4 class="card-title mt-1">Philippe DUPONT</h4>
+                <p class="card-text lead">
+                  Artiste qui ne connaît pas la retraite <br />
+                  & président
+                </p>
+                <div>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-instagram"
+                      role="img"
+                      aria-label="insta"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-facebook"
+                      role="img"
+                      aria-label="facebook"
+                      style="font-size: 2rem"
+                    ></i>
+                  </a>
                 </div>
               </div>
+            </div>
           </div>
 
           <!-- second member -->
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-team bg-dark mt-5 text-light">
-                <img
-                  class="card-img mx-auto rounded-circle"
-                  src="medias/portrait-antoine.webp"
-                  alt="2ème membre de l'équipe"
-                />
-                <div class="card-body">
-                  <h4 class="card-title mt-1">Antoine MARIE</h4>
-                  <p class="card-text lead">
-                    Passionné du net <br />
-                    & trésorier
-                  </p>
-                  <div>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-instagram"
-                        role="img"
-                        aria-label="insta"
-                        style="font-size: 2rem"
-                      ></i
-                    ></a>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-github"
-                        role="img"
-                        aria-label="GitHub"
-                        style="font-size: 2rem"
-                      ></i
-                    ></a>
-                  </div>
+            <div class="card card-team bg-dark mt-5 text-light">
+              <img
+                class="card-img mx-auto rounded-circle"
+                src="medias/portrait-antoine.webp"
+                alt="2ème membre de l'équipe"
+              />
+              <div class="card-body">
+                <h4 class="card-title mt-1">Antoine MARIE</h4>
+                <p class="card-text lead">
+                  Passionné du net <br />
+                  & trésorier
+                </p>
+                <div>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-instagram"
+                      role="img"
+                      aria-label="insta"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-github"
+                      role="img"
+                      aria-label="GitHub"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
                 </div>
               </div>
+            </div>
           </div>
 
           <!-- third member -->
           <div class="col-12 col-md-6 col-lg-4">
-              <div class="card card-team bg-dark mt-5 text-light">
-                <img
-                  class="card-img mx-auto rounded-circle"
-                  src="medias/portrait-alice.webp"
-                  alt="3ème membre de l'équipe"
-                />
-                <div class="card-body">
-                  <h4 class="card-title mt-1">Alice ARIBERT</h4>
-                  <p class="card-text lead">
-                    Etudiante BTS SIO <br />
-                    & artiste peintre
-                  </p>
-                  <div>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-instagram"
-                        role="img"
-                        aria-label="insta"
-                        style="font-size: 2rem"
-                      ></i
-                    ></a>
-                    <a
-                      href="#"
-                      class="card-link text-decoration-none text-light"
-                      ><i
-                        class="bi bi-github"
-                        role="img"
-                        aria-label="GitHub"
-                        style="font-size: 2rem"
-                      ></i
-                    ></a>
-                  </div>
+            <div class="card card-team bg-dark mt-5 text-light">
+              <img
+                class="card-img mx-auto rounded-circle"
+                src="medias/portrait-alice.webp"
+                alt="3ème membre de l'équipe"
+              />
+              <div class="card-body">
+                <h4 class="card-title mt-1">Alice ARIBERT</h4>
+                <p class="card-text lead">
+                  Etudiante BTS SIO <br />
+                  & artiste dans l'âme
+                </p>
+                <div>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-instagram"
+                      role="img"
+                      aria-label="insta"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
+                  <a href="#" class="card-link text-decoration-none text-light"
+                    ><i
+                      class="bi bi-github"
+                      role="img"
+                      aria-label="GitHub"
+                      style="font-size: 2rem"
+                    ></i
+                  ></a>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="container-fluid mt-5">
-      <div class="container d-flex justify-content-between align-items-center pt-3">
+      <div
+        class="container d-flex justify-content-between align-items-center pt-3"
+      >
         <p class="pt-2">©2022 - Les artistes d'abords</p>
         <div>
           <a href="#" class="card-link text-decoration-none text-light mx-3"
