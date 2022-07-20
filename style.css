@@ -69,6 +69,15 @@ footer > div {
         height: 50vh;
     }
 
+    header div.collapse {
+        display: flex;
+        justify-content: end;
+    }
+    
+    header ul li {
+        margin-right: 25px;
+    }
+
     #img-accueil-1 {
         display: initial;
         border-radius: 5px;
@@ -77,6 +86,11 @@ footer > div {
         left: 50px;
         width: 70%;
         max-width: 450px;
+    }
+
+    form {
+        max-width: 600px;
+        margin: 50px auto;
     }
 }
 
