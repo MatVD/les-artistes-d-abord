@@ -88,9 +88,9 @@ footer > div {
         max-width: 450px;
     }
 
-    /* ======= contact form ======= */
-    form {
-        max-width: 750px;
+    /* ======= accordion & contact form ======= */
+    form, div.accordion {
+        max-width: 900px;
         margin: 50px auto;
     }
 }
