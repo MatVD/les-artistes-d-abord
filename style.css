@@ -52,21 +52,23 @@ div.card-3 {
 
 /* ============ form & FAQ ============= */
 
-.accordion-button {
-    background: #21252954;
+.accordion {
+    --bs-accordion-border-color: rgb(99, 99, 99);
+}
+
+.accordion-button{
+    color: black;
+    background: rgba(230, 230, 230, 0.936);
 }
 
 .accordion-button:not(.collapsed){
-    background: #21252954;
     color: black;
+    background: rgba(230, 230, 230, 0.936);
 }
 
-.accordion-button:focus {
-    border-color: white;
-}
 
 .accordion-body {
-    background: #21252917;
+    background: rgba(241, 241, 241, 0.23);
 }
 
 /* =============== footer ============== */
