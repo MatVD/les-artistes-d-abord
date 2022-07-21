@@ -50,7 +50,24 @@ div.card-3 {
     width: 100px;
 }
 
+/* ============ form & FAQ ============= */
 
+.accordion-button {
+    background: #21252954;
+}
+
+.accordion-button:not(.collapsed){
+    background: #21252954;
+    color: black;
+}
+
+.accordion-button:focus {
+    border-color: white;
+}
+
+.accordion-body {
+    background: #21252917;
+}
 
 /* =============== footer ============== */
 footer {
